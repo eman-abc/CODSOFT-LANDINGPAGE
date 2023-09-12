@@ -1,0 +1,167 @@
+html {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #25274d;
+    color: #cccccc;
+
+}
+
+.navbar,
+bi-cart,
+.nav-link,
+li a {
+    background-color: #d1d7e0;
+    font-weight: bold;
+    color: #25274d;
+    text-decoration: none;
+}
+
+.navbar .btn {
+    background-color: #25274d;
+    color: #d1d7e0;
+    transition: 0.5s;
+}
+
+.navbar .navbar-nav:hover .nav-link:hover,
+.bi-cart:hover,
+li a:hover {
+    color: #802bb1;
+}
+
+.navbar .btn:hover {
+    background-color: #802bb1;
+    color: #d1d7e0;
+}
+
+footer {
+    background-color: #d1d7e0;
+    font-weight: 600;
+    color: #25274d;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+main section:nth-child(1) {
+    background-color: #802bb180;
+    color: #d1d7e0;
+    width: 100vw;
+    text-align: center;
+}
+
+main section div:nth-child(1) {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    text-align: start;
+}
+
+main section form {
+    background-color: #d1d7e0;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px;
+    color: #25274d;
+}
+
+.sign-in div a {
+    text-decoration: none;
+    color: #19181a;
+    font-weight: bold;
+}
+
+.sign-in div a:hover {
+    color: #802bb1;
+}
+
+.btn-1 {
+    background-color: #25274d;
+    color: #cccccc;
+    transition: 0.5s;
+}
+
+.btn-1:hover {
+    background-color: #802bb1;
+    color: #cccccc;
+    border: 2px solid #25274d;
+    box-shadow: 5px 10px #25274d;
+    transform: translate(0, -8px);
+}
+
+.btn-2 {
+    background-color: #25274d;
+    color: #cccccc;
+    transition: 0.5s;
+}
+
+.btn-2:hover {
+    background-color: #802bb1;
+    color: #cccccc;
+}
+
+.carousel-item div .card{
+    background-color: #d1d7e0;
+    color: #25274d;
+    padding: 0;
+    
+} 
+
+.carousel-item div div img {
+    width: 100%;
+    height: 150px;
+}
+.card-btn{
+    background-color: #802bb1;
+    color: #cccccc;
+    transition: 0.5s;
+}
+.card-btn:hover{
+    background-color: #25274d;
+    color: #cccccc;
+}
+main section:nth-child(2) h2,main section:nth-child(3) h2{
+    font-family: 'Roboto Mono', monospace;
+    color:#d1d7e0;
+    font-weight: 500;
+}
+
+.test div img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.test div div h5,.test div div q{
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.test div div q{
+    font-style: italic;
+    font-weight: lighter;
+}
+.test .card{
+    background-color:#d1d7e0;
+    color: #25274d;
+    margin: 5px;
+    border-color: #25274d;
+    border-bottom: 10px solid #802bb1;
+    flex-grow: 1;
+} 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
